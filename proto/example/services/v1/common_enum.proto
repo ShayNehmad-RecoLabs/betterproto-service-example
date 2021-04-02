@@ -1,0 +1,9 @@
+syntax="proto3";
+
+package example.services.v1;
+
+option go_package = "github.com/shaynehmad-recolabs/betterproto-service-example/proto;reco";
+
+enum DataSource {
+  DATA_SOURCE_UNSPECIFIED = 0;
+};

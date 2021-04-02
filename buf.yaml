@@ -1,0 +1,11 @@
+version: v1beta1
+name: buf.build/shaynehmad-recolabs/betterproto-example
+build:
+  roots:
+    - proto
+lint:
+  use:
+    - DEFAULT
+deps:
+  - buf.build/beta/googleapis
+  - buf.build/grpc-ecosystem/grpc-gateway
